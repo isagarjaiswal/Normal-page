@@ -1,0 +1,300 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.position-absolute > .menu{
+position:absolute;
+top: 19.5%;
+left: 21.5%;
+
+}
+.position-absolute > .chart{
+    position:absolute;
+    top: 76.5%;
+    left: 21.5%;
+    
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: rgb(216, 216, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    width: 60%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.left-container{
+   width: 40%;
+   height: 110%;
+   background: linear-gradient(rgb(10, 19, 42),rgb(13, 39, 53),rgb(13, 39, 53));
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+
+}
+.profile{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    line-height: 20px;
+    /* margin-top: -5vh; */
+    /* background-color: red; */
+    margin-top: 2vh;
+    
+}
+.profile > img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+    margin-bottom: 8px;
+}
+.profile > h3{
+    color: aliceblue;
+    font: 600 16px "montserrat";
+    letter-spacing: 1px;
+}
+.profile > span{
+    font: 600 13px "montserrat";
+    color: rgba(149, 146, 146, 0.846);
+    letter-spacing: 1px;
+} 
+.rank-score{
+    /* margin-top: -15vh; */
+    /* background-color: red; */
+    /* padding-top: 60px; */
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5vmax;
+    justify-content: space-around;
+}
+.rank-score > hr{
+    height: 25px;
+    width: 3px;
+    background-color:rgb(13, 23, 47);
+    /* color: grey; */
+    outline:none;
+    border: none;
+}
+.rank-score > .left-rank-score > h3{
+  font: 600 16px "montserrat";
+  letter-spacing: 2px;
+  color: white;
+  margin-bottom: .5vh;
+}
+.rank-score > .left-rank-score > span{
+    /* margin-top: vh; */
+    font: 500 28px "montserrat";
+    letter-spacing: 2px;
+    color: rgb(36, 206, 141);
+  }
+.level > img{
+    height: 200px;
+}
+
+.right-container{
+    width: 60%;
+    height: 100%;
+    background-color:rgb(255, 255, 255);
+}
+.nav-right-container{
+    /* background-color: red; */
+    margin-top: 25px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    font: 600 15px "montserrat";
+    color: rgb(92, 92, 92);
+}
+.nav-right-container > span{
+    color: rgb(189, 189, 189);
+}
+
+.rc{
+    margin-top: 3vh;
+    margin-left: 3vh;
+    width: 80%;
+    height: 50vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.x{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.rc-r1 > .z > hr{
+    width: 440px;
+    height: 10px;
+    margin-left: 15px;
+    background:rgb(240, 240, 240);
+    position: relative;
+    border: none;
+    border-radius: 2px;
+}
+
+.rc-r1 > .z > hr::after {
+    content: "";
+    width: 400px;
+    height: 10px;
+    background:rgb(36, 206, 141);
+    position: absolute;
+
+}
+.rc-r1> .z > pre{
+    margin-top: -10px;
+    margin-left: 15px;
+    font: 600 12px "montserrat";
+    color: rgb(131, 131, 131);
+}
+.rc-r1 >.y > p{
+    font: 700 15px "montserrat";
+    margin-left: -10px;
+    color: rgb(90, 81, 81);
+
+}
+
+
+.rc-r2 > .z > hr{
+    width: 440px;
+    height: 10px;
+    margin-left: 15px;
+    background:rgb(240, 240, 240);
+    position: relative;
+    border: none;
+    border-radius: 2px;
+}
+
+.rc-r2 > .z > hr::after {
+    content: "";
+    width: 350px;
+    height: 10px;
+    background:rgb(36, 206, 141);
+    position: absolute;
+
+}
+.rc-r2> .z > pre{
+    margin-top: -10px;
+    margin-left: 15px;
+    font: 600 12px "montserrat";
+    color: rgb(131, 131, 131);
+}
+.rc-r2 >.y > p{
+    font: 700 15px "montserrat";
+    margin-left: -10px;
+    color: rgb(90, 81, 81);
+
+}
+
+
+.rc-r3 > .z > hr{
+    width: 440px;
+    height: 10px;
+    margin-left: 15px;
+    background:rgb(240, 240, 240);
+    position: relative;
+    border: none;
+    border-radius: 2px;
+}
+
+.rc-r3 > .z > hr::after {
+    content: "";
+    width: 300px;
+    height: 10px;
+    background:rgb(36, 206, 141);
+    position: absolute;
+
+}
+.rc-r3> .z > pre{
+    margin-top: -10px;
+    margin-left: 15px;
+    font: 600 12px "montserrat";
+    color: rgb(131, 131, 131);
+}
+.rc-r3 >.y > p{
+    font: 700 15px "montserrat";
+    margin-left: -10px;
+    color: rgb(90, 81, 81);
+
+}
+
+.rc-r4 > .z > hr{
+    width: 440px;
+    height: 10px;
+    margin-left: 15px;
+    background:rgb(240, 240, 240);
+    position: relative;
+    border: none;
+    border-radius: 2px;
+}
+
+.rc-r4 > .z > hr::after {
+    content: "";
+    width: 250px;
+    height: 10px;
+    background:rgb(36, 206, 141);
+    position: absolute;
+
+}
+.rc-r4> .z > pre{
+    margin-top: -10px;
+    margin-left: 15px;
+    font: 600 12px "montserrat";
+    color: rgb(131, 131, 131);
+}
+.rc-r4 >.y > p{
+    font: 700 15px "montserrat";
+    margin-left: -10px;
+    color: rgb(90, 81, 81);
+
+}
+
+.rc-r5 > .z > hr{
+    width: 440px;
+    height: 10px;
+    margin-left: 15px;
+    background:rgb(240, 240, 240);
+    position: relative;
+    border: none;
+    border-radius: 2px;
+}
+
+.rc-r5 > .z > hr::after {
+    content: "";
+    width: 210px;
+    height: 10px;
+    background:rgb(36, 206, 141);
+    position: absolute;
+
+}
+.rc-r5> .z > pre{
+    margin-top: -10px;
+    margin-left: 15px;
+    font: 600 12px "montserrat";
+    color: rgb(131, 131, 131);
+}
+.rc-r5 >.y > p{
+    font: 700 15px "montserrat";
+    margin-left: -10px;
+    color: rgb(90, 81, 81);
+
+}
